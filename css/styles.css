@@ -2,11 +2,11 @@ body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
   background-color: #fff;
- width: 1440px;
-height: 3300px;
-flex-direction: row-reverse;
-box-sizing: border-box;
-display: flex;
+  width: 1440px;
+  height: 3300px;
+  flex-direction: row-reverse;
+  box-sizing: border-box;
+  display: flex;
 }
 
 ul,
@@ -60,9 +60,7 @@ a {
 .nav-link:hover,
 .nav-link:focus,
 .contacts-link:hover,
-.contacts-link:focus,
-.order-btn:hover,
-.order-btn:focus {
+.contacts-link:focus {
   color: #404bbf;
 }
 
@@ -96,6 +94,11 @@ a {
   letter-spacing: 0.04em;
   color: #fff;
   cursor: pointer;
+}
+
+.order-btn:hover,
+.order-btn:focus {
+  color: #404bbf;
 }
 
 /*benefits*/
@@ -137,7 +140,7 @@ a {
 /*team*/
 
 .team {
-  background-color: #F4F4FD
+  background-color: #f4f4fd;
   width: 1440px;
   height: 732px;
 }
@@ -152,8 +155,11 @@ a {
   text-transform: capitalize;
 }
 
+.team-list {
+  background-color: #ffffff;
+}
+
 .team-list-item {
-  background-color: #FFFFFF
   border-radius: 0 0 4px 4px;
   padding: 0px 0px 32px 0px;
   width: 264px;
@@ -162,68 +168,68 @@ a {
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
-.team-list-img{
-width="264"
-height="260"
+.team-list-img {
+  width: 264px;
+  height: 260px;
 }
 
-.team-list-title{
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-text-align: center;
-color: #2e2f42;
+.team-list-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
 }
 
-.team-list-text{
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-text-align: center;
-color: #434455;
+.team-list-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #434455;
 }
 
 /*portfolio*/
 
-.portfolio{
+.portfolio {
   width: 1128px;
-height: 1000px;
+  height: 1000px;
 }
 
-.portfolio-title{
-font-weight: 700;
-font-size: 36px;
-line-height: 1.11;
-letter-spacing: 0.02em;
-text-align: center;
-color: #2e2f42;
-text-transform: capitalize;
+.portfolio-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  text-transform: capitalize;
 }
 
-.portfolio-list-item{
+.portfolio-list-item {
   width: 360px;
-height: 420px;
+  height: 420px;
 }
 
-.portfolio-list-img{
-width="360";
-height="300";
+.portfolio-list-img {
+  width: 360px;
+  height: 300px;
 }
 
-.portfolio-list-title{
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: #2e2f42;
+.portfolio-list-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
-.portfolio-list-text{
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #434455;
+.portfolio-list-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
 /*footer*/
@@ -231,8 +237,8 @@ color: #434455;
 .page-footer {
   background: #2e2f42;
   border: 1px solid #000;
-width: 1440px;
-height: 312px;
+  width: 1440px;
+  height: 312px;
 }
 
 .footer-logo {
@@ -243,9 +249,9 @@ height: 312px;
   color: #f4f4fd;
 }
 
-.footer-text{
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #f4f4fd;
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
