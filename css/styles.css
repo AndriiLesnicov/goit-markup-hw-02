@@ -2,6 +2,11 @@ body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
   background-color: #fff;
+ width: 1440px;
+height: 3300px;
+flex-direction: row-reverse;
+box-sizing: border-box;
+display: flex;
 }
 
 ul,
@@ -55,7 +60,9 @@ a {
 .nav-link:hover,
 .nav-link:focus,
 .contacts-link:hover,
-.contacts-link:focus {
+.contacts-link:focus,
+.order-btn:hover,
+.order-btn:focus {
   color: #404bbf;
 }
 
@@ -88,6 +95,7 @@ a {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
+  cursor: pointer;
 }
 
 /*benefits*/
@@ -129,6 +137,7 @@ a {
 /*team*/
 
 .team {
+  background-color: #F4F4FD
   width: 1440px;
   height: 732px;
 }
@@ -140,9 +149,11 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .team-list-item {
+  background-color: #FFFFFF
   border-radius: 0 0 4px 4px;
   padding: 0px 0px 32px 0px;
   width: 264px;
@@ -152,7 +163,7 @@ a {
 }
 
 .team-list-img{
-  width="264"
+width="264"
 height="260"
 }
 
@@ -187,6 +198,7 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
+text-transform: capitalize;
 }
 
 .portfolio-list-item{
@@ -195,8 +207,8 @@ height: 420px;
 }
 
 .portfolio-list-img{
-width: 360px;
-height: 300px;
+width="360";
+height="300";
 }
 
 .portfolio-list-title{
