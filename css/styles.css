@@ -2,11 +2,6 @@ body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
   background-color: #fff;
-  width: 1440px;
-  height: 3300px;
-  flex-direction: row-reverse;
-  box-sizing: border-box;
-  display: flex;
 }
 
 ul,
@@ -98,7 +93,7 @@ a {
 
 .order-btn:hover,
 .order-btn:focus {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 
 /*benefits*/
@@ -155,11 +150,8 @@ a {
   text-transform: capitalize;
 }
 
-.team-list {
-  background-color: #ffffff;
-}
-
 .team-list-item {
+  background-color: #ffffff;
   border-radius: 0 0 4px 4px;
   padding: 0px 0px 32px 0px;
   width: 264px;
